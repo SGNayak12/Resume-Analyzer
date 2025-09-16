@@ -1,8 +1,8 @@
 import React from 'react'
 import { Route,Routes } from 'react-router-dom'
 import Start from './pages/start.jsx'
-import Candidate_login from './pages/Candidate_login.jsx'
-import HR_login from './pages/HR_login.jsx'
+import CandidateHome from './pages/CandidateHome.jsx'
+import HrHome from './pages/HrHome.jsx'
 
 
 const App = () => {
@@ -10,8 +10,8 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Start />} />
-        <Route path="/candidate_login" element={<Candidate_login/>} />
-        <Route path="/HR_login" element={<HR_login/>} />
+        <Route path="/candidate_Home" element={<CandidateHome/>} />
+        <Route path="/hr_Home" element={<HrHome/>} />
       </Routes>
     </>
   )

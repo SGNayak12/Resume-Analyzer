@@ -24,13 +24,13 @@ const Start = () => {
         {/* Buttons */}
         <div className="flex flex-col md:flex-row gap-6">
           <Link
-            to="/candidate_login"
+            to="/candidate_Home"
             className="px-6 py-3 bg-white text-black text-xl font-semibold rounded-lg shadow-lg hover:bg-gray-200 transition"
           >
             As a Candidate
           </Link>
           <Link
-            to="/hr_login"
+            to="/hr_Home"
             className="px-6 py-3 bg-white text-black text-xl font-semibold rounded-lg shadow-lg hover:bg-gray-200 transition"
           >
             As a HR
