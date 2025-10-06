@@ -73,7 +73,9 @@ def pred(input_resume):
 # Skill Extraction
 # ------------------------------
 skills_df = pd.read_csv("skills.csv")  
+# print(skills_df)
 skills_list = skills_df["skill"].dropna().unique().tolist()
+# print(skills_list)
 
 nlp = spacy.load("en_core_web_sm")
 matcher = PhraseMatcher(nlp.vocab, attr="LOWER")
